@@ -238,6 +238,7 @@ footer>h6
     footer
     {
         clear: both;
+        position: static;
     }
     
 }
