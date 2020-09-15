@@ -1,0 +1,68 @@
+/*.temp
+{
+    width: 30%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 2%;
+    margin: 1%;
+    left: 2%;
+    background-color: transparent;
+    display: inline-block;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+figure
+{
+    margin: 0 auto;
+    width: 36%;
+}
+.developer
+{
+    width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+     margin: 0 auto;
+     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.temp>a
+{
+    display: inline-block;
+    margin-left: 12%;
+    margin-top: none;
+    text-align: center; 
+}
+.temp h2:last-of-type
+{
+    text-align: center;
+}
+.temp>label
+{
+    margin-left: 6%;
+}
+.button
+{
+    background-color: var(--header-bg-color);
+    color: #ffffff;
+    border: none;
+    width: 30%;
+    padding: 3%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 4%;
+    transition: background-color 2s;
+}
+.button:hover {
+    background-color:var(--onhover-bg-color)
+}
+*/
