@@ -22,6 +22,7 @@ body
     margin: 0; 
     font-size: 100%;
     min-height: 100%;  
+    border: 5px solid yellow;
 }
 header
 {
@@ -132,22 +133,23 @@ nav>div:last-child
 }
 .temp
 {
-    width: 80%;
+    width: 70%;
     margin-left:2%;
+    margin-top: 2%;
     border-radius: 15px;
+    margin-bottom: 10%;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
     padding: 2%;
-    margin-bottom: 10%;
     display:block;
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
 }
 figure
 {
     margin: 0 auto;
-    width: 36%;
+    width: 30%;
 }
 .developer
 {
@@ -212,29 +214,30 @@ footer
     width: 96%;
     font-size: 1.5rem;
     color: white;
+    position: absolute;
+    bottom: 0;
     text-align: center;
+    
 }
+
 footer>h6
 {
     margin: 0;
     padding: 0;
 }
-
 @media only screen and (min-width:1024px)
 {
     .temp
-    {   
-        width: 30%;
-        font-size: 0.8em;
-        display:inline-block;
-        float:left;
-        margin-right: none;
-        margin-left: none;
-    }
-    footer
     {
-        clear: both;
-        position: static;
+        display: inline-block;
+        float: left;
+        width: 40%;
+
     }
-    
+    .clearfix::after 
+    {
+        content: "";
+        clear: both;
+        display: table;
+      }
 }
